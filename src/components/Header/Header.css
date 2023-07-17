@@ -1,7 +1,49 @@
-.h-container{
-    display: flex;
+:root {
+    --clr-blue-un: hsl(239, 94%, 19%);
+    --clr-blue-deux: hsl(214, 97%, 27%);
+    --clr-blue-trois: hsl(201, 100%, 36%);
+    --clr-blue-quatre: hsl(195, 100%, 39%);
+    --clr-blue-cinq: hsl(190, 100%, 42%);
+    --clr-blue-six: hsl(190, 74%, 59%);
+    --clr-blue-sept: hsl(189, 75%, 75%);
+    --clr-blue-huit: hsl(190, 76%, 82%);
+    --clr-blue-neuf: hsl(190, 77%, 88%);
 }
 
-.h-wrapper{
-    background-color: red;
+/* Reste du code CSS */
+
+.h-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
 }
+.h-menu {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.h-menu > a {
+    color: black;
+    transition: 0.12s ease-in;
+}
+.h-menu > a:hover{
+    transform: scale(1.1);
+}
+.h-login{
+    display: flex;
+    gap: 50px;
+}
+.h-login .log{
+    padding: 0.6rem 1.4rem;
+    border-radius: 0.6vmax;
+    background-color: var(--clr-blue-trois);
+    border: 1px solid var(--clr-blue-trois);
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+}
+.h-login .log:hover{
+    transform: scale(1.1);
+}
+

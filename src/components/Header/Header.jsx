@@ -1,11 +1,12 @@
 import React from 'react'
+import './Header.css';
 
 const Header = () => {
   return (
     <section className="h-wrapper">
         <div className="h-container">
             <div className="logo">
-                <img src="./img/logo.svg" alt="Delgo's logo" width={200}/>
+                <img src="./img/logo.svg" alt="Delgo's logo" width={120}/>
             </div>
             <div className="h-menu">
                 <a href="#">Products</a>
@@ -16,9 +17,6 @@ const Header = () => {
             <div className="h-login">
                 <a href="">
                     <button className="log">Log In</button>
-                </a>
-                <a href="">
-                    <button className="create">Create Account</button>
                 </a>
             </div>
         </div>
