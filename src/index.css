@@ -1,13 +1,13 @@
-:root{
-    --clr-blue-1:hsl(239, 94, 19);
-    --clr-blue-2:hsl(214, 97, 27);
-    --clr-blue-3:hsl(201, 100, 36);
-    --clr-blue-4:hsl(195, 100, 39);
-    --clr-blue-5:hsl(190, 100, 42);
-    --clr-blue-6:hsl(190, 74, 59);
-    --clr-blue-7:hsl(189, 75, 75);
-    --clr-blue-8:hsl(190, 76, 82);
-    --clr-blue-9:hsl(190, 77, 88);
+:root {
+    --clr-blue-un: hsl(239, 94%, 19%);
+    --clr-blue-deux: hsl(214, 97%, 27%);
+    --clr-blue-trois: hsl(201, 100%, 36%);
+    --clr-blue-quatre: hsl(195, 100%, 39%);
+    --clr-blue-cinq: hsl(190, 100%, 42%);
+    --clr-blue-six: hsl(190, 74%, 59%);
+    --clr-blue-sept: hsl(189, 75%, 75%);
+    --clr-blue-huit: hsl(190, 76%, 82%);
+    --clr-blue-neuf: hsl(190, 77%, 88%);
 }
 *{
     margin: 0;
