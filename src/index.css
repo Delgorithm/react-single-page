@@ -1,14 +1,23 @@
 :root{
-    --clr-dark-blue:hsl(205,100%,9.4%);
-    --clr-ocean:hsl(195,70.9%,31%);
-    --clr-azur:hsl(176,50.5%,59.6%);
-    --clr-blue-sky:hsl(174,100%,92.7%);
-
+    --clr-blue-1:hsl(239, 94, 19);
+    --clr-blue-2:hsl(214, 97, 27);
+    --clr-blue-3:hsl(201, 100, 36);
+    --clr-blue-4:hsl(195, 100, 39);
+    --clr-blue-5:hsl(190, 100, 42);
+    --clr-blue-6:hsl(190, 74, 59);
+    --clr-blue-7:hsl(189, 75, 75);
+    --clr-blue-8:hsl(190, 76, 82);
+    --clr-blue-9:hsl(190, 77, 88);
 }
 *{
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 100svh;
 }
