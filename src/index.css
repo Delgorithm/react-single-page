@@ -1,0 +1,14 @@
+:root{
+    --clr-dark-blue:hsl(205,100%,9.4%);
+    --clr-ocean:hsl(195,70.9%,31%);
+    --clr-azur:hsl(176,50.5%,59.6%);
+    --clr-blue-sky:hsl(174,100%,92.7%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
