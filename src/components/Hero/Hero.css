@@ -1,0 +1,87 @@
+:root {
+    --clr-blue-un: hsl(239, 94%, 19%);
+    --clr-blue-deux: hsl(214, 97%, 27%);
+    --clr-blue-trois: hsl(201, 100%, 36%);
+    --clr-blue-quatre: hsl(195, 100%, 39%);
+    --clr-blue-cinq: hsl(190, 100%, 42%);
+    --clr-blue-six: hsl(190, 74%, 59%);
+    --clr-blue-sept: hsl(189, 75%, 75%);
+    --clr-blue-huit: hsl(190, 76%, 82%);
+    --clr-blue-neuf: hsl(190, 77%, 88%);
+}
+
+/* ----------- h-page-first ----------- */
+
+/* ----------- Left ----------- */
+.h-page-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 6rem;
+}
+.h-left h1{
+    font-size: 4em;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+.h-search{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0rem
+}
+.h-search input{
+    padding: 0.6rem 1.4rem;
+    width: 260px;
+    border-radius: 2vmax;
+    border: none;
+    color: white;
+    background-color: var(--clr-blue-trois);
+    outline-color: var(--clr-blue-trois);
+}
+.h-search input::placeholder{
+    color: rgb(223, 223, 223);
+}
+.h-search .btn-search{
+    padding: 0.6rem 1.4rem;
+    border-radius: 2vmax;
+    cursor: pointer;
+    border: none;
+}
+.h-review{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.h-review-p{
+    font-size: 2em;
+    margin-right: 10px;
+}
+.h-note{
+    display: flex;
+    flex-direction: column;
+}
+.h-green{
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+.h-green span{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(15, 161, 15);
+    margin-right: 2px;
+}
+/* ----------- Right ----------- */
+.h-right img{
+    width: fit-content;
+    height:max-content;
+    margin-bottom: 2rem;
+}
+
+/* ----------- h-page-second ----------- */
+
+.logo-business{
+    display: flex;
+    justify-content: space-around;
+}
