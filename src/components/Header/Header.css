@@ -18,6 +18,9 @@
     align-items: center;
     height: 80px;
 }
+.logo{
+    cursor: pointer;
+}
 .h-menu {
     display: flex;
     align-items: center;
@@ -25,7 +28,7 @@
 }
 .h-menu > a {
     color: black;
-    transition: 0.12s ease-in;
+    transition: all 0.12s ease-in;
 }
 .h-menu > a:hover{
     transform: scale(1.1);
@@ -41,7 +44,7 @@
     border: 1px solid var(--clr-blue-trois);
     color: white;
     cursor: pointer;
-    transition: 0.3s ease-in;
+    transition: all 0.3s ease-in;
 }
 .h-login .log:hover{
     transform: scale(1.1);
