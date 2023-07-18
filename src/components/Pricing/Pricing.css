@@ -10,8 +10,8 @@
     --clr-blue-neuf: hsl(190, 77%, 88%);
 }
 .price{
-    background-color: antiquewhite;
     padding-top: 2rem;
+    min-height: 60svh;
 }
 .trial-text{
     display: grid;
@@ -36,33 +36,49 @@
     display: flex;
     justify-content: center;
     padding: 2rem;
-    background-color: cadetblue;
 }
-.trial-catalog p:nth-child(1){
+.catalog{
+    border: 1px solid rgb(208, 208, 208);
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1vmax;
+}
+.catalog p:nth-child(1){
     background-color: orange;
-    width: 60px;
+    width: fit-content;
     display: flex;
     justify-content: center;
     color: white;
     padding: 0.6rem 1rem;
     border-radius: 1vmax;
 }
-.second-catalog p:nth-child(1),
-.third-catalog p:nth-child(1){
-    width: 80px;
-}
 .trial-price{
     font-size: 2em;
+    padding: 1rem 0rem;
 }
-.trial-price span{
-    font-size: 1em;
+.catalog p:nth-child(3){
+    color: grey;
+    font-size: 0.8em;
+    padding-bottom: 1rem;
 }
-
-.first-catalog,
-.second-catalog,
-.third-catalog{
-    border: 1px solid grey;
-    margin: 1rem;
-    padding: 1rem;
+.catalog .input-catalog{
+    gap: 10px;
+    padding: 2px 0px;
+}
+.catalog .btn{
+    width: 100%;
+    padding: 0.6rem;
+    margin-top: 1rem;
     border-radius: 1vmax;
+    color: white;
+    border: 1px solid var(--clr-blue-trois);
+    background-color: var(--clr-blue-trois);
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
+.catalog .btn:hover{
+    opacity: 0.8;
+}
+.catalog .btn:active{
+    transform: translate(0px, 2px);
 }
