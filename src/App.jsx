@@ -3,6 +3,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import Map from './components/Map/Map';
 import Pricing from './components/Pricing/Pricing';
+import Testimonials from './components/Testimonial/Testimonials';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
             <Hero />
             <Map />
             <Pricing />
+            <Testimonials />
         </div>
     );
 }
