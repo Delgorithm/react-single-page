@@ -94,9 +94,8 @@
 }
 /* ----------- Right ----------- */
 .h-right img{
-    width: fit-content;
+    width: 450px;
     height:max-content;
-    margin-bottom: 2rem;
 }
 
 /* ----------- h-page-second ----------- */

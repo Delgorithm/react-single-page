@@ -30,7 +30,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className="h-right">
-                <img src="./img/dan.png" alt="Business man" />
+                <img src="./img/cryptomockup_1.png" alt="Business man" />
             </div>
         </div>
         <div className="h-page-second">
