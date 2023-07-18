@@ -1,0 +1,81 @@
+:root {
+    --clr-blue-un: hsl(239, 94%, 19%);
+    --clr-blue-deux: hsl(214, 97%, 27%);
+    --clr-blue-trois: hsl(201, 100%, 36%);
+    --clr-blue-quatre: hsl(195, 100%, 39%);
+    --clr-blue-cinq: hsl(190, 100%, 42%);
+    --clr-blue-six: hsl(190, 74%, 59%);
+    --clr-blue-sept: #8fe1ef;
+    --clr-blue-huit: hsl(190, 76%, 82%);
+    --clr-blue-neuf: #c9f0f8;
+}
+.testimonial{
+    min-height: 100svh;
+}
+.t-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem;
+}
+.t-title p{
+    font-size: 2em;
+    cursor: pointer;
+}
+.t-title button{
+    height: 40px;
+    width: 160px;
+    border-radius: 1vmax;
+    border: 1px solid var(--clr-blue-trois);
+    background-color: var(--clr-blue-trois);
+    color: white;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+.t-title button:hover{
+    transform: scale(1.1);
+}
+.t-title button:active{
+    transform: translate(0px, 1px);
+    opacity: 0.8;
+}
+/* --------- Testimonials ------- */
+.three-testimonials{
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    padding: 2rem;
+    cursor: pointer;
+}
+.review{
+    border: 1px solid rgb(205, 205, 205);
+    margin: 2rem;
+    padding: 1rem;
+    flex: 1;
+    border-radius: 1vmax;
+}
+.profil-pfp{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.profil-pfp img{
+    width: 50px;
+    display: flex;
+}
+.profil-pfp p:nth-child(2){
+    color: rgb(208, 208, 208);
+}
+.quote{
+    font-size: 1.3em;
+    padding: 20px 0px;
+}
+.second-quote{
+    color: rgb(120, 120, 120);
+    padding: 10px 0px;
+    padding-bottom: 1rem;
+}
+.review .imgb{
+    width: 100px;
+    padding-top: 20px;
+}
