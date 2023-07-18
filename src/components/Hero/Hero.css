@@ -27,25 +27,42 @@
 .h-search{
     display: flex;
     align-items: center;
-    margin: 2rem 0rem
+    margin: 2rem 0rem;
+    width: 400px;
+    max-width: 100%;
+    position: relative;
 }
 .h-search input{
-    padding: 0.6rem 1.4rem;
+    padding: 1rem 2rem;
     width: 260px;
     border-radius: 2vmax;
-    border: none;
-    color: white;
-    background-color: var(--clr-blue-trois);
-    outline-color: var(--clr-blue-trois);
+    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    width: 100%;
+    background-color: rgb(223, 223, 223);
+    outline-color: white;
 }
 .h-search input::placeholder{
-    color: rgb(223, 223, 223);
+    color: rgb(129, 129, 129);
 }
 .h-search .btn-search{
-    padding: 0.6rem 1.4rem;
+    padding: 1.4rem 1.4rem;
     border-radius: 2vmax;
+    height: 80%;
     cursor: pointer;
     border: none;
+    position: absolute;
+    right: 10px;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    color: white;
+    transition: all 0.12s ease-in;
+    background-color: var(--clr-blue-trois);
+}
+.h-search .btn-search:active{
+    transform: translate(0px, 1px);
+    opacity: 80%;
 }
 .h-review{
     display: flex;
@@ -72,6 +89,9 @@
     background-color: rgb(15, 161, 15);
     margin-right: 2px;
 }
+.h-green p{
+    margin-left: 6px;
+}
 /* ----------- Right ----------- */
 .h-right img{
     width: fit-content;
@@ -84,4 +104,5 @@
 .logo-business{
     display: flex;
     justify-content: space-around;
+    
 }
