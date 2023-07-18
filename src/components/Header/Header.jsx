@@ -6,7 +6,9 @@ const Header = () => {
     <section className="h-wrapper">
         <div className="h-container">
             <div className="logo">
-                <img src="./img/logo.svg" alt="Delgo's logo" width={120}/>
+                <a href="#">
+                    <img src="./img/logo.svg" alt="Delgo's logo" width={120}/>
+                </a>
             </div>
             <div className="h-menu">
                 <a href="#">Products</a>
@@ -15,7 +17,7 @@ const Header = () => {
                 <a href="#">Ressources</a>
             </div>
             <div className="h-login">
-                <a href="">
+                <a href="#">
                     <button className="log">Log In</button>
                 </a>
             </div>
