@@ -72,6 +72,7 @@
 .h-review{
     display: flex;
     align-items: center;
+    padding-top: 1rem;
     cursor: pointer;
 }
 .h-review-p{
@@ -114,5 +115,6 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 2rem;
     cursor: pointer;
 }
