@@ -49,4 +49,8 @@
 .h-login .log:hover{
     transform: scale(1.1);
 }
+.h-login .log:active{
+    transform: translate(0px, 1px);
+    opacity: 80%;
+}
 
