@@ -5,6 +5,7 @@ import Map from './components/Map/Map';
 import Pricing from './components/Pricing/Pricing';
 import Testimonials from './components/Testimonial/Testimonials';
 import Faq from './components/Faq/Faq';
+import Footer from './components/Footer/Footer';
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Pricing />
             <Testimonials />
             <Faq />
+            <Footer />
         </div>
     );
 }
