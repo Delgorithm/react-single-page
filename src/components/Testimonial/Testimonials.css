@@ -10,7 +10,7 @@
     --clr-blue-neuf: #c9f0f8;
 }
 .testimonial{
-    min-height: 100svh;
+    min-height: 80svh;
 }
 .t-title{
     display: flex;
