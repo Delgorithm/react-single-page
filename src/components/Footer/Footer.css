@@ -1,0 +1,24 @@
+:root {
+    --clr-blue-un: hsl(239, 94%, 19%);
+    --clr-blue-deux: hsl(214, 97%, 27%);
+    --clr-blue-trois: hsl(201, 100%, 36%);
+    --clr-blue-quatre: hsl(195, 100%, 39%);
+    --clr-blue-cinq: hsl(190, 100%, 42%);
+    --clr-blue-six: hsl(190, 74%, 59%);
+    --clr-blue-sept: #8fe1ef;
+    --clr-blue-huit: hsl(190, 76%, 82%);
+    --clr-blue-neuf: #c9f0f8;
+}
+.footer-section{
+    background-color: black;
+    min-height: 60svh;
+    color: white;
+}
+.footer-information{
+    display: flex;
+    margin: 1rem 8rem;
+    padding: 4rem;
+    border-radius: 1vmax;
+    background-color: var(--clr-blue-trois);
+;
+}
