@@ -39,20 +39,20 @@ const Pricing = () => {
                 <p>Premium</p>
                 <p className='trial-price'>$15/monthly</p>
                 <p>Get the most complete hosting service at the lowest price.</p>
-                <Checkbox label="Up to 135.000 Visitors/Month" />
-                <Checkbox label="Unlimited SSD Disk Space" />
-                <Checkbox label="Unlimited Bandwith" />
-                <Checkbox label="Unlimited Database" />
+                <Checkbox label="Organize CPU 2 Cores" />
+                <Checkbox label="RAM 1 GB" />
+                <Checkbox label="Disk Space 60 GB" />
+                <Checkbox label="Bandwidth 2 TB" />
                 <BtnStarted />
             </div>
             <div className="catalog">
                 <p>Business</p>
                 <p className='trial-price'>$20/monthly</p>
                 <p>Get the most complete hosting service at the lowest price.</p>
-                <Checkbox label="Up to 135.000 Visitors/Month" />
-                <Checkbox label="Unlimited SSD Disk Space" />
-                <Checkbox label="Unlimited Bandwith" />
-                <Checkbox label="Unlimited Database" />
+                <Checkbox label="Free to Choose Extension" />
+                <Checkbox label="Many Cheap Domain Promos" />
+                <Checkbox label="Trusted Domain Provider" />
+                <Checkbox label="24/7 Technical Support" />
                 <BtnStarted />
             </div>
         </div>
