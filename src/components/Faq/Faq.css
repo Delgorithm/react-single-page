@@ -9,7 +9,7 @@
     --clr-blue-huit: hsl(190, 76%, 82%);
     --clr-blue-neuf: hsl(190, 77%, 88%);
 }.faq-section{
-    min-height: 80svh;
+    min-height: 60svh;
 }
 .faq-title-p{
     display: flex;
@@ -27,9 +27,6 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem 0rem;
-}
-div{
-    cursor: pointer;
 }
 .active{
     transition: max-height 2s ease-in-out;
